@@ -1,7 +1,5 @@
 from flask import Flask,render_template, request, session, Response, redirect
-from model import entities, db, engine
-import producer as tweetg
-import filters as filters
+from model.entities import *
 import json
 import time
 import os,sys
